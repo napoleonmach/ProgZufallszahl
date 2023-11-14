@@ -1,0 +1,41 @@
+
+# setup file for project ValuesTable
+
+[build-system]
+    requires = ["setuptools"]
+    build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+    packages=["tablevalues"]
+
+[project]
+    name = "tablevalues"
+    version = "0.0.1"
+    description = "A great project"
+    readme = "README.md" 
+    requires-python = ">=3.10, <4"
+    license = {text = "GPL"}
+    authors = [
+        {name = "Name 1", email = "email1@bla.com"},
+        {name = "Name 2", email = "email2@bla.com"},
+    ]
+    maintainers = [
+        {name = "Name 1", email = "email1@bla.com"},
+        {name = "Name 2", email = "email2@bla.com"},
+    ]
+    keywords=["example", "project structure"]
+    dependencies = [
+        "setuptools>=61",
+    ]
+
+classifiers = [
+        "Development Status :: 3 - Alpha",
+        "Topic :: Demonstration",
+        "License :: GPL License",
+]
+
+[project.urls]
+    Homepage = "http://myUrl.com"
+
+[project.scripts]
+    calctable = "tablevalues.main:calc"

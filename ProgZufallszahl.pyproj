@@ -21,6 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="NewFolder1\Modul1.py" />
     <Compile Include="NewFolder1\ValuesTable\setup.py" />
     <Compile Include="NewFolder1\ValuesTable\tablevalues\main.py" />
     <Compile Include="NewFolder1\ValuesTable\tablevalues\__init__.py" />
